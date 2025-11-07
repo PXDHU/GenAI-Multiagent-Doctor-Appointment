@@ -44,8 +44,8 @@ A sophisticated multi-agent system for intelligent doctor appointment scheduling
 
 2. **Set up virtual environment**
    ```bash
-   python -m venv venv310
-   source venv310/bin/activate  # Linux/Mac
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
    # OR
    .\venv310\Scripts\activate  # Windows
    ```
@@ -97,8 +97,7 @@ Multiagent-Doctor-Appointment/
 2. Add the following configurations:
    ```env
    OPENAI_API_KEY=your_openai_api_key
-   GOOGLE_API_KEY=your_google_api_key
-   DATABASE_URL=your_database_url
+   GROQ_API_KEY=your_google_api_key
    ```
 
 ## 📚 API Documentation
@@ -107,11 +106,6 @@ Once running, access the API documentation at:
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
-## 🧪 Running Tests
-
-```bash
-pytest tests/
-```
 
 ## 📈 Performance
 
@@ -128,22 +122,12 @@ pytest tests/
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Padmavasan Balakrishnan**
 - Email: padmavasan.contact@gmail.com
 - GitHub: [@PXDHU](https://github.com/PXDHU)
-
-## 🙏 Acknowledgments
-
-- LangChain community
-- FastAPI team
-- Streamlit developers
-- All contributors
 
 ---
 ⭐️ Star this repository if you find it helpful!
